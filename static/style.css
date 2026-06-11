@@ -1,0 +1,135 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: Righteous, sans-serif;
+}
+
+.five-column-grid{
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(250px, 1fr));
+
+    gap: 30px;
+
+    margin-top: 40px;
+}
+
+img{
+    width: 20%;
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    img{
+        width: 80%;
+    }
+}
+
+.search{
+    --padding: 14px;
+
+
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    border-radius: 28px;
+    background: #f6f6f6;
+    width: 600px;
+}
+
+
+.search-input{
+    font-size: 16px;
+    color: #333333;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+    flex: 1;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.login-form{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.login-form input{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.login-form button{
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+
+.card{
+    background: white;
+    border-radius: 18px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+
+}
+
+a{
+    text-decoration: none;
+
+    color: inherit;
+}
+.top-image{
+    display: flex;
+    width: 7400px;
+    height: 700px;
+    align-content: center;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 150px;
+    height: 600px;
+
+    background-image: url("https://wallpapercave.com/wp/wp9098782.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.hero p {
+    color: white;
+    font-size: 20px;
+}
+
+.hero-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}

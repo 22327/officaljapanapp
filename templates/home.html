@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="hero">
+
+    <div class="hero-content">
+
+        <h1>Learn Japanese Easily</h1>
+
+        <p>
+            Master Hiragana and Katakana with interactive lessons,
+            audio pronunciation, and fun learning tools.
+        </p>
+
+        <a href="{{ url_for('maker', id=0) }}" class="hero-button">
+            Start Learning
+        </a>
+
+    </div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,212 @@
+-- database: ./wordsdata.db
+
+SELECT * FROM Japan;
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("あ", "a", "あい : ai : love", "あ (a) is the first character of the Hiragana, representing the vowel sound “a” and sometimes expressing emotion like “ah!”"); 
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("い", "i", "いえ : ie : house", "い (i) is the second character of the Hiragana, representing the vowel sound “i” and often used in words related to home and family.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("う", "u", "うみ : umi : sea", "う (u) is the third character of the Hiragana, representing the vowel sound “u” and often associated with nature and water.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("え", "e", "えき : eki : station", "え (e) is the fourth character of the Hiragana, representing the vowel sound “e” and often used in words related to places and transportation.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("お", "o", "おかね : okane : money", "お (o) is the fifth character of the Hiragana, representing the vowel sound “o” and often associated with things related to money and value.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("か", "ka", "かさ : kasa : umbrella", "か (ka) is the first character of the Kanas, representing the consonant sound “k” followed by the vowel sound “a” and often used in words related to everyday items.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("き", "ki", "きのこ : kinoko : mushroom", "き (ki) is the second character of the Kanas, representing the consonant sound “k” followed by the vowel sound “i” and often associated with nature and food.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("く", "ku", "くるま : kuruma : car", "く (ku) is the third character of the Kanas, representing the consonant sound “k” followed by the vowel sound “u” and often used in words related to transportation.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("け", "ke", "けむり : ke mushi : smoke", "け (ke) is the fourth character of the Kanas, representing the consonant sound “k” followed by the vowel sound “e” and often associated with things related to fire and air.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("こ", "ko", "ことり : kotori : small bird", "こ (ko) is the fifth character of the Kanas, representing the consonant sound “k” followed by the vowel sound “o” and often used in words related to nature and animals.");
+
+INSert INTO Japan(Letter,English,Words,Description) VALUES ("さ", "sa", "さくら : sakura : cherry blossom", "さ (sa) is the first character of the Sakas, representing the consonant sound “s” followed by the vowel sound “a” and often associated with beauty and nature.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("し", "shi", "しろ : shiro : white", "し (shi) is the second character of the Sakas, representing the consonant sound “s” followed by the vowel sound “i” and often used in words related to colors and purity.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("す", "su", "すし : sushi : sushi", "す (su) is the third character of the Sakas, representing the consonant sound “s” followed by the vowel sound “u” and often associated with food and culture.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("せ", "se", "せんせい : sensei : teacher", "せ (se) is the fourth character of the Sakas, representing the consonant sound “s” followed by the vowel sound “e” and often used in words related to education and respect.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("そ", "so", "そら : sora : sky", "そ (so) is the fifth character of the Sakas, representing the consonant sound “s” followed by the vowel sound “o” and often associated with nature and freedom.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("た", "ta", "たまご : tamago : egg", "た (ta) is the first character of the Takas, representing the consonant sound “t” followed by the vowel sound “a” and often used in words related to food and nature.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("ち", "chi", "ちず : chizu : map", "ち (chi) is the second character of the Takas, representing the consonant sound “t” followed by the vowel sound “i” and often associated with knowledge and exploration.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("つ", "tsu", "つき : tsuki : moon", "つ (tsu) is the third character of the Takas, representing the consonant sound “t” followed by the vowel sound “u” and often associated with nature and celestial bodies.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("て", "te", "てがみ : tegami : letter", "て (te) is the fourth character of the Takas, representing the consonant sound “t” followed by the vowel sound “e” and often used in words related to communication and writing.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("と", "to", "とり : tori : bird", "と (to) is the fifth character of the Takas, representing the consonant sound “t” followed by the vowel sound “o” and often associated with nature and animals.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("な", "na", "なつ : natsu : summer", "な (na) is the first character of the Nakas, representing the consonant sound “n” followed by the vowel sound “a” and often associated with seasons and nature.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("に", "ni", "にほん : nihon : Japan", "に (ni) is the second character of the Nakas, representing the consonant sound “n” followed by the vowel sound “i” and often used in words related to places and culture.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("ぬ", "nu", "ぬいぐるみ : nuigurumi : stuffed animal", "ぬ (nu) is the third character of the Nakas, representing the consonant sound “n” followed by the vowel sound “u” and often associated with toys and comfort.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("ね", "ne", "ねこ : neko : cat", "ね (ne) is the fourth character of the Nakas, representing the consonant sound “n” followed by the vowel sound “e” and often associated with animals and pets.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("の", "no", "のり : nori : seaweed", "の (no) is the fifth character of the Nakas, representing the consonant sound “n” followed by the vowel sound “o” and often associated with food and nature.");   
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("は", "ha", "はな : hana : flower", "は (ha) is the first character of the Hakas, representing the consonant sound “h” followed by the vowel sound “a” and often associated with beauty and nature.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("ひ", "hi", "ひと : hito : person", "ひ (hi) is the second character of the Hakas, representing the consonant sound “h” followed by the vowel sound “i” and often used in words related to people and society.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("ふ", "fu", "ふね : fune : ship", "ふ (fu) is the third character of the Hakas, representing the consonant sound “h” followed by the vowel sound “u” and often associated with transportation and travel.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("へ", "he", "へや : heya : room", "へ (he) is the fourth character of the Hakas, representing the consonant sound “h” followed by the vowel sound “e” and often used in words related to places and living spaces.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("ほ", "ho", "ほし : hoshi : star", "ほ (ho) is the fifth character of the Hakas, representing the consonant sound “h” followed by the vowel sound “o” and often associated with nature and celestial bodies.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("ま", "ma", "まち : machi : town", "ま (ma) is the first character of the Makas, representing the consonant sound “m” followed by the vowel sound “a” and often used in words related to places and community.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("み", "mi", "みず : mizu : water", "み (mi) is the second character of the Makas, representing the consonant sound “m” followed by the vowel sound “i” and often associated with nature and essential elements.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("む", "mu", "むし : mushi : insect", "む (mu) is the third character of the Makas, representing the consonant sound “m” followed by the vowel sound “u” and often associated with nature and small creatures.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("め", "me", "めがね : megane : glasses", "め (me) is the fourth character of the Makas, representing the consonant sound “m” followed by the vowel sound “e” and often used in words related to vision and accessories.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("も", "mo", "もり : mori : forest", "も (mo) is the fifth character of the Makas, representing the consonant sound “m” followed by the vowel sound “o” and often associated with nature and greenery.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("や", "ya", "やま : yama : mountain", "や (ya) is the first character of the Yakas, representing the consonant sound “y” followed by the vowel sound “a” and often associated with nature and landscapes.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("ゆ", "yu", "ゆき : yuki : snow", "ゆ (yu) is the second character of the Yakas, representing the consonant sound “y” followed by the vowel sound “u” and often associated with nature and weather.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("よ", "yo", "よる : yoru : night", "よ (yo) is the third character of the Yakas, representing the consonant sound “y” followed by the vowel sound “o” and often associated with time and darkness.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("ら", "ra", "らいおん : raion : lion", "ら (ra) is the first character of the Rakas, representing the consonant sound “r” followed by the vowel sound “a” and often associated with animals and strength.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("り", "ri", "りんご : ringo : apple", "り (ri) is the second character of the Rakas, representing the consonant sound “r” followed by the vowel sound “i” and often associated with food and nature.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("る", "ru", "るす : rusu : absence", "る (ru) is the third character of the Rakas, representing the consonant sound “r” followed by the vowel sound “u” and often used in words related to absence and being away.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("れ", "re", "れいぞうこ : reizouko : refrigerator", "れ (re) is the fourth character of the Rakas, representing the consonant sound “r” followed by the vowel sound “e” and often associated with household items and appliances.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("ろ", "ro", "ろうそく : rousoku : candle", "ろ (ro) is the fifth character of the Rakas, representing the consonant sound “r” followed by the vowel sound “o” and often associated with light and warmth.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("わ", "wa", "わたし : watashi : I/me", "わ (wa) is the first character of the Wakas, representing the consonant sound “w” followed by the vowel sound “a” and often used in words related to self and identity.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("を", "wo", "をんがく : ongaku : music", "を (wo) is the second character of the Wakas, representing the consonant sound “w” followed by the vowel sound “o” and often used in words related to music and culture.");
+
+INSERT INTO Japan(Letter,English,Words,Description) VALUES ("ん", "n", "こんにちは : konnichiwa : hello", "ん (n) is the only character in the Hiragana that represents a consonant sound without a following vowel and is often used in various words and expressions in Japanese.");
+
+
+
+
+
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ア", "a", "アイスクリーム : aisukurīmu : ice cream", "ア (a) is the first character of the Katakana, representing the vowel sound “a” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("イ", "i", "イヌ : inu : dog", "イ (i) is the second character of the Katakana, representing the vowel sound “i” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ウ", "u", "ウサギ : usagi : rabbit", "ウ (u) is the third character of the Katakana, representing the vowel sound “u” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("エ", "e", "エレベーター : erebētā : elevator", "エ (e) is the fourth character of the Katakana, representing the vowel sound “e” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("オ", "o", "オレンジ : orenji : orange", "オ (o) is the fifth character of the Katakana, representing the vowel sound “o” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("カ", "ka", "カメラ : kamera : camera", "カ (ka) is the first character of the Katakana, representing the consonant sound “k” followed by the vowel sound “a” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("キ", "ki", "キッチン : kicchin : kitchen", "キ (ki) is the second character of the Katakana, representing the consonant sound “k” followed by the vowel sound “i” and often used in words borrowed from other languages, especially for foreign names and loanwords
+.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ク", "ku", "クッキー : kukkī : cookie", "ク (ku) is the third character of the Katakana, representing the consonant sound “k” followed by the vowel sound “u” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ケ", "ke", "ケース : kēsu : case", "ケ (ke) is the fourth character of the Katakana, representing the consonant sound “k” followed by the vowel sound “e” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("コ", "ko", "コーヒー : kōhī : coffee", "コ (ko) is the fifth character of the Katakana, representing the consonant sound “k” followed by the vowel sound “o” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("サ", "sa", "サラダ : sarada : salad", "サ (sa) is the first character of the Katakana, representing the consonant sound “s” followed by the vowel sound “a” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("シ", "shi", "シャンプー : shanpū : shampoo", "シ (shi) is the second character of the Katakana, representing the consonant sound “s” followed by the vowel sound “i” and often used in words borrowed from other languages, especially for foreign names and loanwords
+.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ス", "su", "スポーツ : supōtsu : sports", "ス (su) is the third character of the Katakana, representing the consonant sound “s” followed by the vowel sound “u” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("セ", "se", "セーター : sētā : sweater", "セ (se) is the fourth character of the Katakana, representing the consonant sound “s” followed by the vowel sound “e” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ソ", "so", "ソファ : sofa : sofa", "ソ (so) is the fifth character of the Katakana, representing the consonant sound “s” followed by the vowel sound “o” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("タ", "ta", "タクシー : takushī : taxi", "タ (ta) is the first character of the Katakana, representing the consonant sound “t” followed by the vowel sound “a” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("チ", "chi", "チーズ : chīzu : cheese", "チ (chi) is the second character of the Katakana, representing the consonant sound “t” followed by the vowel sound “i” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ツ", "tsu", "ツナ : tsuna : tuna", "ツ (tsu) is the third character of the Katakana, representing the consonant sound “t” followed by the vowel sound “u” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("テ", "te", "テーブル : tēburu : table", "テ (te) is the fourth character of the Katakana, representing the consonant sound “t” followed by the vowel sound “e” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ト", "to", "トマト : tomato : tomato", "ト (to) is the fifth character of the Katakana, representing the consonant sound “t” followed by the vowel sound “o” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ナ", "na", "ナイフ : naifu : knife", "ナ (na) is the first character of the Katakana, representing the consonant sound “n” followed by the vowel sound “a” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ニ", "ni", "ニュース : nyūsu : news", "ニ (ni) is the second character of the Katakana, representing the consonant sound “n” followed by the vowel sound “i” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ヌ", "nu", "ヌードル : nūdoru : noodle", "ヌ (nu) is the third character of the Katakana, representing the consonant sound “n” followed by the vowel sound “u” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ネ", "ne", "ネクタイ : nekutai : necktie", "ネ (ne) is the fourth character of the Katakana, representing the consonant sound “n” followed by the vowel sound “e” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ノ", "no", "ノート : nōto : notebook", "ノ (no) is the fifth character of the Katakana, representing the consonant sound “n” followed by the vowel sound “o” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ハ", "ha", "ハンバーガー : hanbāgā : hamburger", "ハ (ha) is the first character of the Katakana, representing the consonant sound “h” followed by the vowel sound “a” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ヒ", "hi", "ヒーロー : hīrō : hero", "ヒ (hi) is the second character of the Katakana, representing the consonant sound “h” followed by the vowel sound “i” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("フ", "fu", "フルーツ : furūtsu : fruit", "フ (fu) is the third character of the Katakana, representing the consonant sound “h” followed by the vowel sound “u” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ヘ", "he", "ヘリコプター : herikoputā : helicopter", "ヘ (he) is the fourth character of the Katakana, representing the consonant sound “h” followed by the vowel sound “e” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ホ", "ho", "ホットドッグ : hottodoggu : hot dog", "ホ (ho) is the fifth character of the Katakana, representing the consonant sound “h” followed by the vowel sound “o” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("マ", "ma", "マスク : masuku : mask", "マ (ma) is the first character of the Katakana, representing the consonant sound “m” followed by the vowel sound “a” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ミ", "mi", "ミルク : miruku : milk", "ミ (mi) is the second character of the Katakana, representing the consonant sound “m” followed by the vowel sound “i” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ム", "mu", "ムービー : mūbī : movie", "ム (mu) is the third character of the Katakana, representing the consonant sound “m” followed by the vowel sound “u” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("メ", "me", "メガネ : megane : glasses", "メ (me) is the fourth character of the Katakana, representing the consonant sound “m” followed by the vowel sound “e” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("モ", "mo", "モーター : mōtā : motor", "モ (mo) is the fifth character of the Katakana, representing the consonant sound “m” followed by the vowel sound “o” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ヤ", "ya", "ヤクルト : yakuruto : Yakult", "ヤ (ya) is the first character of the Katakana, representing the consonant sound “y” followed by the vowel sound “a” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ユ", "yu", "ユニフォーム : yunifōmu : uniform", "ユ (yu) is the second character of the Katakana, representing the consonant sound “y” followed by the vowel sound “u” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ヨ", "yo", "ヨーグルト : yōguruto : yogurt", "ヨ (yo) is the third character of the Katakana, representing the consonant sound “y” followed by the vowel sound “o” and often used in words borrowed from other languages, especially for foreign names and loanwords   .");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ラ", "ra", "ラーメン : rāmen : ramen", "ラ (ra) is the first character of the Katakana, representing the consonant sound “r” followed by the vowel sound “a” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("リ", "ri", "リモコン : rimokon : remote control", "リ (ri) is the second character of the Katakana, representing the consonant sound “r” followed by the vowel sound “i” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ル", "ru", "ルール : rūru : rule", "ル (ru) is the third character of the Katakana, representing the consonant sound “r” followed by the vowel sound “u” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("レ", "re", "レストラン : resutoran : restaurant", "レ (re) is the fourth character of the Katakana, representing the consonant sound “r” followed by the vowel sound “e” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ロ", "ro", "ロケット : roketto : rocket", "ロ (ro) is the fifth character of the Katakana, representing the consonant sound “r” followed by the vowel sound “o” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ワ", "wa", "ワイン : wain : wine", "ワ (wa) is the first character of the Katakana, representing the consonant sound “w” followed by the vowel sound “a” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ヲ", "wo", "ヲタク : otaku : otaku", "ヲ (wo) is the second character of the Katakana, representing the consonant sound “w” followed by the vowel sound “o” and often used in words borrowed from other languages, especially for foreign names and loanwords.");
+
+INSERT INTO JAPAN(Letter,English,Words,Description) VALUES ("ン", "n", "コンピュータ : konpyūta : computer", "ン (n) is the only character in the Katakana that represents a consonant sound without a following vowel and is often used in various words and expressions in Japanese, especially for foreign names and loanwords.");
+
+
+
+SELECT * FROM Japan;
+
+SELECT Makers.Name, Japan.Letter FROM Japan
+JOIN Makers ON Makers.MakerID=Japan.MakerID;
+
+SELECT Japan.Letter FROM Japan
+JOIN Makers ON Makers.MakerID=Japan.MakerID
+WHERE Makers.Name = "Hiragana";
+
+SELECT Japan.JapanID,Makers.Name, Japan.Lette
+FROM Japan
+JOIN Makers ON Makers.MakerID=Japan.MakerID;
+
+SELECT * FROM Japan JOIN Makers on Makers.MakerID=Japan.MakerID
+WHERE Japan.JapanID = 15;

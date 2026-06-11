@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+{% block search %}
+    <form action="/search" method="GET">
+    <div class="search">
+        <span class="search-icon material-symbols-outlined">search</span>
+        <input type="hidden" name="id" value="{{ id }}">
+        <input 
+            class="search-input" 
+            type="search" 
+            name="query" 
+            placeholder="Search Letter..."
+
+        
+        >
+    </div>
+</form>
+
+
+
+{% endblock %}
+{% block content %}
+
+{% if id == 0 %}
+    <div>
+        <h1>Learn Hiragana</h1>
+        <p>Master the foundation of Japanese reading.</p>
+    </div>
+{% else %}
+    <div>
+        <h1>Learn Katakana</h1>
+        <p>Learn foreign sounds and modern Japanese words.</p>
+    </div>
+{% endif %}
+<div class="top-image">
+
+    {% if id == 0 %}
+        <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/049/739/895/small/mount-fuji-at-lake-kawaguchi-in-the-morning-sunrise-mt-fujisan-in-fujikawaguchiko-yamanashi-japan-landmark-for-tourists-attraction-japan-travel-destination-vacation-and-mount-fuji-day-concept-photo.jpg"
+        >
+    {% else %}
+        <img
+            src="https://www.japan-zone.com/features/pix/019/reflecting-fujisan.jpg"
+            alt="Katakana Banner"
+        >
+    {% endif %}
+
+</div>
+    <div class="five-column-grid">
+        {% for result in results %}
+        <a href="{{ url_for('japan', id=result[0]) }}">
+            <div class="card w3-card-4">
+                <img src="{{ result[3] }}" >
+                <h1>{{ result[4] }}</h1>
+            </div>
+         </a>
+        {% endfor %}
+
+    </div>
+{% endblock %}
