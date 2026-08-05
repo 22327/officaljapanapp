@@ -5,6 +5,7 @@ DATABASE = 'wordsdata.db'
 
 app = Flask(__name__)
 
+# retriving everything from the database
 def get_db():
     db = getattr(g, '_database', None)
     if db is None:
@@ -24,6 +25,7 @@ def query_db(query, args=(), one=False):
     return (rv[0] if rv else None) if one else rv
 
 
+# connecting everything from wordsdata.db
 
 @app.route("/")
 def hello_world():
