@@ -154,3 +154,9 @@ a{
     text-align: center;
     
 }
+
+.righteous-regular {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
