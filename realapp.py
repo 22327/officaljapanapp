@@ -35,7 +35,7 @@ def hello_world():
                 JOIN Makers ON Makers.MakerID=Japan.MakerID;"""
     results = query_db(sql)
     return render_template("home.html", results=results)
-
+#rendering template
 @app.route("/japan/<int:id>")
 def japan(id):
     sql="""SELECT * FROM Japan 
