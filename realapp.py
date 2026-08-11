@@ -64,7 +64,7 @@ def contact():
 @app.route('/history')
 def history():
     return render_template("history.html")
-
+#search bar for alphabets
 @app.route("/search")
 def search():
     query = request.args.get("query")
@@ -89,7 +89,7 @@ def search():
 
 
 
-
+#login page
 @app.route("/submit", methods=["POST"])
 def submit():
     username = request.form.get("username")
