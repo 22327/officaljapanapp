@@ -43,7 +43,9 @@ def japan(id):
     WHERE Japan.JapanID = ?;"""
     result = query_db(sql, [id], one=True)
     return render_template("japan.html", result=result)
-   
+
+
+ #for my maker, when clicked on each alphabet, all of the following should pop up.  
 @app.route("/maker/<int:id>")
 def maker(id):
     sql="""SELECT Japan.JapanID,Makers.Name, Japan.Letter,Japan.ImageURL,Japan.English
@@ -53,12 +55,12 @@ def maker(id):
     results = query_db(sql, [id])
     return render_template("maker.html", results=results, id=id)
 
-
+#sending to my contact page
 @app.route('/contact')
 def contact():
     return render_template("contact.html")
 
-
+#sending to my histroy page
 @app.route('/history')
 def history():
     return render_template("history.html")
