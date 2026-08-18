@@ -160,3 +160,27 @@ a{
   font-weight: 400;
   font-style: normal;
 }
+
+.error-page {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.error-page h1 {
+    font-size: 120px;
+    margin: 0;
+}
+
+.error-page h2 {
+    font-size: 32px;
+}
+
+.error-page p {
+    font-size: 18px;
+}
+
+.error-page a {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+}
