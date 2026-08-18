@@ -1,19 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Page Not Found</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>404 - Page Not Found</title>
+
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f5ef;
+            color: #222;
+        }
+
+        .error-container {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .error-box {
+            background: white;
+            width: 500px;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+            position: relative;
+            z-index: 2;
+        }
+
+        .japanese-symbol {
+            font-size: 80px;
+            color: #c62828;
+            margin-bottom: 10px;
+        }
+
+        .error-number {
+            font-size: 110px;
+            font-weight: bold;
+            color: #c62828;
+            margin: 0;
+        }
+
+        .error-box h2 {
+            font-size: 30px;
+            margin: 10px 0;
+        }
+
+        .japanese-text {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .error-box p {
+            color: #777;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+        .home-button {
+            display: inline-block;
+            background-color: #c62828;
+            color: white;
+            text-decoration: none;
+            padding: 14px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: 0.2s;
+        }
+
+        .home-button:hover {
+            background-color: #a91f1f;
+            transform: translateY(-2px);
+        }
+
+        /* Decorative cherry blossoms */
+        .sakura {
+            position: absolute;
+            color: #e9a8b5;
+            font-size: 35px;
+        }
+
+        .sakura.one {
+            top: 10%;
+            left: 10%;
+        }
+
+        .sakura.two {
+            top: 20%;
+            right: 15%;
+        }
+
+        .sakura.three {
+            bottom: 15%;
+            left: 18%;
+        }
+
+        .sakura.four {
+            bottom: 10%;
+            right: 10%;
+        }
+
+    </style>
 </head>
 
 <body>
 
-    <div class="error-page">
-        <h1>404</h1>
-        <h2>Oops! Page not found.</h2>
-        <p>The page you're looking for doesn't exist.</p>
+    <div class="error-container">
 
-        <a href="{{ url_for('hello_world') }}">Go back home</a>
+        <div class="sakura one">✿</div>
+        <div class="sakura two">✿</div>
+        <div class="sakura three">✿</div>
+        <div class="sakura four">✿</div>
+
+        <div class="error-box">
+
+            <h1 class="error-number">404</h1>
+
+            <h2>Page Not Found</h2>
+
+
+
+            <p>
+                It looks like you've wandered somewhere
+                that doesn't exist.
+            </p>
+
+            <a href="{{ url_for('hello_world') }}" class="home-button">
+                Back to Home
+            </a>
+
+        </div>
+
     </div>
 
 </body>
+
 </html>
