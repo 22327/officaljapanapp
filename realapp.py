@@ -96,13 +96,5 @@ def search():
 
 
 
-#login page
-@app.route("/submit", methods=["POST"])
-def submit():
-    username = request.form.get("username")
-    password = request.form.get("password")
-
-    return f"Data Received - Username: {username}, Password: {password}"
-
 if __name__ == "__main__":
     app.run(debug=True)
