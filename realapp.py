@@ -10,8 +10,6 @@ app = Flask(__name__)
 def page_not_found(error):
     return render_template('404.html'), 404
 
-
-
 # retriving everything from the database
 def get_db():
     db = getattr(g, '_database', None)
